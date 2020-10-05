@@ -32,7 +32,16 @@ namespace HelloJM
 
 			//string interpolation
 			Console.Write($"Hello World on,  {dayOfWeek} oh no another one"); // '$' is formatted text string w/ the variable
-			Console.WriteLine($" with, {myName} !!!");
+			Console.WriteLine($" with, {myName} !!!"); // use lower camel casing to describe the variables. Every variable has a name, type, size and value.
+
+			//Condition is an expression that can be either true or false.
+
+			/* 
+			 Relational operators  
+				>, < less than or greater than
+			 Equal operators
+				== equal to,  != not equal to
+			 */
 
 
 		}
