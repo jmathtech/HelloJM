@@ -10,7 +10,14 @@ namespace HelloJM
 	{
 		static void Main(string[] args)
 		{
+			Console.Write("Hello World \n"); // output statement
+			Console.WriteLine("My name is Jamil Matheny"); // output statement with newline
+			Console.Write("Testing 123");
 
+			string dayOfWeek = "Monday";
+			string myName = "Dr. H";
+
+			Console.Write($ "Hello World on,  {dayOfWeek}");
 		}
 	}
 }
